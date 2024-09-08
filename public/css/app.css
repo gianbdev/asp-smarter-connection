@@ -1,0 +1,138 @@
+/* public/css/app.css */
+.alert {
+    position: relative;
+    padding: 15px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.alert-success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background: transparent;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.close-button:hover {
+    color: #a94442;
+}
+
+.hero-section {
+    background: url('https://source.unsplash.com/1600x900/?pets,veterinary') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+}
+
+.hero-section p {
+    font-size: 1.25rem;
+}
+
+.feature-icon {
+    font-size: 2rem;
+    color: #007bff;
+}
+
+.feature-item {
+    text-align: center;
+}
+
+/*BODY STYLES*/
+
+
+/* Estilos personalizados para inputs más delgados */
+/*
+.form-control {
+    padding: 0.375rem 0.75rem;
+    border-radius: 8px;
+    border-width: 1px;
+}*/
+
+/* Botones de radio personalizados */
+.form-check-input {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+}
+
+/* Ajustes de imagen y formulario */
+.img-fluid {
+    height: 500px; /* Ajuste de altura de la imagen */
+    object-fit: cover;
+}
+.img-fluid2 {
+    padding-right: 200px;
+    height: 600px; /* Ajuste de altura de la imagen */
+    width: 800px;
+    object-fit: cover;
+}
+
+
+.form-section {
+    max-height: 800px; /* Formulario más bajo que la imagen */
+}
+
+.input-gusano {
+    display: block;
+    width: 100%;
+    height: 35px; /* Altura más delgada */
+    padding: 5px 15px; /* Ajuste de padding */
+    border-radius: 50px; /* Bordes redondeados para parecer un gusano */
+    border: 1px solid #ced4da; /* Borde estándar */
+    margin-bottom: 15px; /* Espaciado entre los inputs */
+    font-size: 12px;
+}
+
+.input-gusano:focus {
+    outline: none;
+    border-color: #80bdff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+}
+
+/* Botón alargado y centrado */
+.btn-gusano {
+    display: block;
+    width: 300px; /* Ancho fijo para el estilo "gusano" */
+    height: 30px; /* Altura más delgada */
+    margin: 20px auto; /* Centrar el botón horizontalmente y añadir separación superior */
+    border-radius: 50px; /* Bordes redondeados */
+    padding: 0; /* Sin padding adicional */
+    font-size: 14px; /* Tamaño de fuente ajustado */
+    line-height: 30px; /* Alinear el texto verticalmente */
+    background: grey;
+    color: white;
+}
+
+label {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+/* Ajustar márgenes específicos para elementos con clase custom-margin */
+.custom-margin {
+    margin-bottom: 0.2rem; /* Ajusta el espacio vertical */
+}
+/* Ajustar márgenes específicos para etiquetas con clase custom-label */
+.custom-label {
+    margin-bottom: 0.2rem; /* Espacio debajo de las etiquetas */
+}
+
+.custom-input {
+    margin-bottom: 0.5rem; /* Espacio debajo de los campos */
+    padding: 0.5rem; /* Ajusta el relleno dentro de los campos */
+}
